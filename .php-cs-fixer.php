@@ -2,7 +2,6 @@
 
 // The directory the script is being run from
 $dir = $GLOBALS['_SERVER']['PWD'];
-$cwd = __DIR__ . '/../../';
 
 $finder = PhpCsFixer\Finder::create()
 	// Projects
@@ -90,7 +89,7 @@ return $config->setRules([
 	'single_space_around_construct' => true,
 ])
 	->setIndent("\t")
-	->setCacheFile($cwd . '.cache/.phpcscache_' . md5($dir))
+	->setCacheFile('.cache/.phpcscache_' . md5($dir))
 	->setFinder($finder)
 	->setParallelConfig(\PhpCsFixer\Runner\Parallel\ParallelConfigFactory::detect())
 ;
