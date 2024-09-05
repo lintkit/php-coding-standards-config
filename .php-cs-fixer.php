@@ -80,7 +80,7 @@ return $config->setRules([
 	'unary_operator_spaces' => true,
 	'array_indentation' => true,
 	'statement_indentation' => true,
-	'no_unused_imports' => true,
+	// 'no_unused_imports' => true,
 
 	'multiline_whitespace_before_semicolons' => [
 		'strategy' => 'new_line_for_chained_calls',
