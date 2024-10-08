@@ -7,26 +7,26 @@ $finder = PhpCsFixer\Finder::create()
 	// Projects
 	->exclude('backup')
 	->exclude('html/assets')
-	->exclude('html/fileadmin')
+	->exclude('html/_assets')
 	->exclude('html/import')
+	
+	// TYPO3
+	->exclude('html/fileadmin')
 	->exclude('html/typo3')
 	->exclude('html/typo3_src')
 	->exclude('html/typo3conf/autoload')
 	->exclude('html/typo3conf/l10n')
 	->exclude('html/typo3temp')
 	->exclude('html/uploads')
-
 	->notPath('html/index.php')
 	->notPath('html/typo3conf/LocalConfiguration.php')
 	->notPath('html/typo3conf/PackageStates.php')
-
-	// TYPO3
+	->notPath('config/system/settings.php')
 	->exclude('typo3/install')
 	->exclude('typo3/sysext')
-
 	->notPath('typo3/install.php')
 
-	// Summit
+	// Laravel
 	->exclude('storage')
 	->notPath('*blade.php')
 
