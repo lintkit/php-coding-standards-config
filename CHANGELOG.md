@@ -1,3 +1,11 @@
+# 1.2.0
+
+**11th October 2024**
+
+#### Features
+
+- Add TYPO3 v12 paths
+
 # 1.1.1
 
 **5th September 2024**
@@ -5,7 +13,6 @@
 #### Revert
 
 - Remove `no_unused_imports` for now as it also removes classes with the same namespace
-
 
 # 1.1.0
 
