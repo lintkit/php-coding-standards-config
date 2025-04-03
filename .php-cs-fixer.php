@@ -85,6 +85,9 @@ return $config->setRules([
 	'multiline_whitespace_before_semicolons' => [
 		'strategy' => 'new_line_for_chained_calls',
 	],
+	'ordered_imports' => [
+		'sort_algorithm' => 'alpha'
+	],
 	'trailing_comma_in_multiline' => true,
 	'no_multiline_whitespace_around_double_arrow' => true,
 	'single_space_around_construct' => true,
