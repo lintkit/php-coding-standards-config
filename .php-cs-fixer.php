@@ -88,6 +88,11 @@ return $config->setRules([
 	'ordered_imports' => [
 		'sort_algorithm' => 'alpha'
 	],
+	'method_argument_space' => [
+		'on_multiline' => 'ensure_fully_multiline',
+		'keep_multiple_spaces_after_comma' => false,
+		'attribute_placement' => 'same_line'
+	],
 	'trailing_comma_in_multiline' => true,
 	'no_multiline_whitespace_around_double_arrow' => true,
 	'single_space_around_construct' => true,
