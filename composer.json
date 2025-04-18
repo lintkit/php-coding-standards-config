@@ -8,6 +8,11 @@
             "email": "mike@liquidlight.co.uk"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "LintKit\\PhpCodingStandardsConfig\\": "Classes"
+        }
+    },
     "require": {
         "friendsofphp/php-cs-fixer": "^3.57"
     }
