@@ -31,6 +31,17 @@ return $config->setRules([
 	'unary_operator_spaces' => true,
 	'array_indentation' => true,
 	'statement_indentation' => true,
+	'ordered_class_elements' => true,
+	'align_multiline_comment' => true,
+	'no_empty_phpdoc' => true,
+	'no_superfluous_phpdoc_tags' => true,
+	'phpdoc_no_useless_inheritdoc' => true,
+	'no_leading_import_slash' => true,
+	'single_line_comment_style' => true,
+	'no_empty_comment' => true,
+	'normalize_index_brace' => true,
+	'no_multiline_whitespace_around_double_arrow' => true,
+	'array_syntax' => true,
 	// 'no_unused_imports' => true,
 
 	'multiline_whitespace_before_semicolons' => [
