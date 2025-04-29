@@ -75,6 +75,7 @@ class Configuration {
 			'ordered_imports' => [
 				'sort_algorithm' => 'alpha',
 			],
+			'phpdoc_no_access' => true,
 			'single_line_comment_style' => true,
 			'single_space_around_construct' => true,
 			'statement_indentation' => true,
