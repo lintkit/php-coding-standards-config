@@ -24,3 +24,7 @@ Add to `.gitignore`
 ```
 .cache
 ```
+
+### TYPO3
+
+If using LintKit with TYPO3, you can require `.typo3.php-cs-fixer.php` of `.php-cs-fixer.php` to exclude TYPO3-related directories
