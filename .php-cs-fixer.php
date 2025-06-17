@@ -9,7 +9,7 @@ $finder = PhpCsFixer\Finder::create()
 	->exclude('html/assets')
 	->exclude('html/_assets')
 	->exclude('html/import')
-	
+
 	// TYPO3
 	->exclude('html/fileadmin')
 	->exclude('html/typo3')
@@ -69,7 +69,6 @@ return $config->setRules([
 			'const' => 'one',
 		],
 	],
-	'type_declaration_spaces' => true,
 	'include' => true,
 	'lowercase_cast' => true,
 	'lowercase_static_reference' => true,
@@ -79,18 +78,14 @@ return $config->setRules([
 	'ternary_operator_spaces' => true,
 	'unary_operator_spaces' => true,
 	'array_indentation' => true,
-	'statement_indentation' => true,
-	// 'no_unused_imports' => true,
 
 	'multiline_whitespace_before_semicolons' => [
 		'strategy' => 'new_line_for_chained_calls',
 	],
 	'trailing_comma_in_multiline' => true,
 	'no_multiline_whitespace_around_double_arrow' => true,
-	'single_space_around_construct' => true,
+	'single_space_after_construct' => true,
 ])
 	->setIndent("\t")
-	->setCacheFile('.cache/.phpcscache_' . md5($dir))
 	->setFinder($finder)
-	->setParallelConfig(\PhpCsFixer\Runner\Parallel\ParallelConfigFactory::detect())
 ;
