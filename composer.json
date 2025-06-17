@@ -9,6 +9,6 @@
         }
     ],
     "require": {
-        "friendsofphp/php-cs-fixer": "^2.0 || ^3.57"
+        "friendsofphp/php-cs-fixer": "^2.0"
     }
 }
