@@ -38,8 +38,10 @@ class Configuration {
 			'@PSR12' => true,
 			'align_multiline_comment' => true,
 			'array_indentation' => true,
-			'array_syntax' => ['syntax' => 'short'],
 			'array_syntax' => true,
+			'binary_operator_spaces' => [
+				'default' => 'single_space',
+			],
 			'blank_line_after_opening_tag' => true,
 			'cast_spaces' => ['space' => 'none'],
 			'class_attributes_separation' => [
