@@ -1,3 +1,16 @@
+# 2.1.0
+
+**14th May 2026**
+
+#### Feature
+
+- Add `binary_operator_spaces` to remove "aligning" spaces
+
+#### Fix
+
+- Remove duplicate `array_syntax`
+- Ignore `.Build` folder
+
 # 2.0.0
 
 **13th June 2025**
