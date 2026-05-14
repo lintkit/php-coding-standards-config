@@ -91,7 +91,9 @@ class Configuration {
 	protected function getFilteredFinder(): Finder
 	{
 			// General
-		$this->finder->exclude('Library')
+		$this->finder
+			->exclude('.Build')
+			->exclude('Library')
 			->exclude('vendor')
 			->exclude('var')
 
