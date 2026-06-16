@@ -75,6 +75,11 @@ class Configuration {
 			'normalize_index_brace' => true,
 			'ordered_class_elements' => true,
 			'ordered_imports' => [
+				'imports_order' => [
+					'class', 
+					'function', 
+					'const'
+				],
 				'sort_algorithm' => 'alpha',
 			],
 			'phpdoc_no_access' => true,
