@@ -1,3 +1,11 @@
+# 2.2.0
+
+**1st September 2026**
+
+#### Feature
+
+- Define `ordered_imports` order
+
 # 2.1.0
 
 **14th May 2026**
